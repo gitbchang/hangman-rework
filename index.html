@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hangman - Rework</title>
+		<script  src="https://code.jquery.com/jquery-3.1.1.js"
+			integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+		crossorigin="anonymous"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+				<h1 class="rainbow">Hangman - Colors</h1>
+				<h2>Press the "Start" button to play</h2>
+				<div>
+					<button type="button" id="startButton" class="btn btn-group-lg rainbow">Start</button>
+				</div>
+			</div>
+			
+			
+			<h4>Press letter keys to start guessing</h4>
+			
+				<div class="row">
+					<div id="winSection"></div>
+				</div>
+				<div class="row">
+					<div id="liveSection"></div>
+				</div>
+				<div class="row">
+					<div id="secretWordSection"></div>
+				</div>
+				<div class="row">
+					<div id="guessSection"></div>
+				</div>
+				<div class="btn-toolbar">
+					<div class="btn-group" id="letterArea"></div>
+				</div>
+				
+			
+		</div>
+	</body>
+</html>
